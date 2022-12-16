@@ -1,0 +1,9 @@
+name: "Final Project"  
+author: "Alison Schulte"  
+output_dir: "docs"  
+output:  
+  html_document:  
+    self_contained: no  
+    theme: flatly  
+navbar:  
+  title: "Final Project" 

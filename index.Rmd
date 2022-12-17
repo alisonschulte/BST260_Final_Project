@@ -1,7 +1,7 @@
 ---
 title: "BST 260 Final Project"
 output: github_document
-date: "2022-12-16"
+date: "December 16, 2022"
 ---
 
 ```{r setup, include=FALSE}
@@ -31,7 +31,7 @@ library(tidyverse)
 library(lmtest)
 
 # Load the data
-data <- read_csv("C:/Users/alisc/OneDrive - Harvard University/Harvard/Fall 2022/BST 260/BST260_FinalProject/default.csv", show_col_types = FALSE) 
+data <- read_csv("default.csv", show_col_types = FALSE) 
 
 # Rename columns to more clearly reflect the variables
 colnames(data) <- c("ID", "Sex", "BD_M", "BD_Y", "Sample_Type", "Race", "Condom", "Other", "HIV", "STI", "K_preg", "K_STI")
